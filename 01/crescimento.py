@@ -19,9 +19,14 @@ def pop_iguala(pop_1, taxa_c_1, pop_2, taxa_c_2):
     o tempo em anos para atingir esse estado."""
 
     tempo = 1
+    pop_i_1 = pop_1
+    pop_i_2 = pop_2
     while pop_1 < pop_2:
-        pop_1_f = pop_final(pop_1, taxa_c_1, tempo)
-        pop_2_f = pop_final(pop_2, taxa_c_2, tempo)
-        tempo = +1
-    tempo = -1
-    return pop_1_f, pop_2_f, tempo
+        pop_1 = pop_final(pop_i_1, taxa_c_1, tempo)
+        pop_2 = pop_final(pop_i_2, taxa_c_2, tempo)
+        tempo += 1
+    tempo -= 1
+    pop_1_f = pop_1
+    pop_2_f = pop_2
+    t = tempo
+    return pop_1_f, pop_2_f, t
