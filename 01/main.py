@@ -19,10 +19,10 @@ pop_1_f, pop_2_f, tempo = pop_iguala(pop_1, taxa_c_1, pop_2, taxa_c_2)
 
 print("População da primeira cidade:")
 print(f"Inicial: {pop_1}")
-print(f"Final: {round(pop_1_f)}")
+print(f"Final: {round(pop_1_f)}\n")
 
 print("População da segunda cidade:")
 print(f"Inicial: {pop_2}")
-print(f"Final: {round(pop_2_f)}")
+print(f"Final: {round(pop_2_f)}\n")
 
 print(f"Tempo para atingir esses números: {tempo}")
