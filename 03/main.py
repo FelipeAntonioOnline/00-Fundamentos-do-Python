@@ -1,1 +1,1 @@
-"""Programa pede números para usuário e realiza a média aritimética entre eles."""
+"""Programa pede números e realiza a média aritimética entre eles."""
