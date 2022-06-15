@@ -29,3 +29,6 @@ Possua no mínimo esses métodos:
 - alterarQuantidadeCombustivel( ) – altera a quantidade de combustível restante na bomba.
 
 OBS: Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba.
+
+5. Programa para verificar se uma string é um palíndromo.
+   [link](/05)
