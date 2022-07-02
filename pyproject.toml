@@ -8,6 +8,8 @@ authors = ["Felipe Antonio <felipe.antonio.online@proton.me>"]
 python = "^3.10"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
