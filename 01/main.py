@@ -1,6 +1,7 @@
 """Programa para calcular a taxa de crescimento populacional de dois países e
  verificar o momento em que as populações irão atingir o mesmo valor."""
 
+
 from crescimento import pop_iguala
 
 print("Programa Para Comparar Populações\n")
@@ -10,10 +11,10 @@ print("Comece com os dados da população menor.\n")
 
 pop_1 = int(input("População da menor cidade: "))
 taxa_c_1 = float(input("Taxa de crescimento da menor cidade: "))
-taxa_c_1 = taxa_c_1 / 100
+taxa_c_1 /= 100
 pop_2 = int(input("População da maior cidade: "))
 taxa_c_2 = float(input("Taxa de crescimento da menor cidade: "))
-taxa_c_2 = taxa_c_2 / 100
+taxa_c_2 /= 100
 
 pop_1_f, pop_2_f, tempo = pop_iguala(pop_1, taxa_c_1, pop_2, taxa_c_2)
 
